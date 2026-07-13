@@ -1,58 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoinVert - Privacy Policy</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0A0E17; color: #F9FAFB; padding: 24px; max-width: 720px; margin: 0 auto; line-height: 1.7; }
-        h1 { font-size: 28px; margin-bottom: 8px; color: #6366F1; }
-        h2 { font-size: 20px; margin-top: 28px; margin-bottom: 8px; color: #22D3EE; }
-        p { margin-bottom: 14px; color: #9CA3AF; }
-        .date { color: #6B7280; font-size: 14px; margin-bottom: 24px; }
-        a { color: #6366F1; }
-        ul { margin-left: 20px; margin-bottom: 14px; color: #9CA3AF; }
-        li { margin-bottom: 6px; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LootX — Privacy Policy & Terms of Use</title>
+<style>
+  :root {
+    --bg: #ffffff; --text: #1a1a1f; --muted: #6a6a76;
+    --accent: #2f7cf6; --border: #e6e6ec; --chip: #f2f3f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e0f13; --text: #e8e9ee; --muted: #9a9ba6;
+      --accent: #5b9bff; --border: #262832; --chip: #1b1d24;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .brand { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
+  .updated { color: var(--muted); font-size: 14px; margin-top: 4px; }
+  .toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
+  .toggle button {
+    appearance: none; border: 0; background: transparent; color: var(--muted);
+    font: inherit; font-size: 14px; padding: 7px 16px; cursor: pointer;
+  }
+  .toggle button.active { background: var(--accent); color: #fff; }
+  h2 {
+    font-size: 20px; margin: 44px 0 12px; padding-top: 16px;
+    border-top: 1px solid var(--border); letter-spacing: -0.01em;
+  }
+  h3 { font-size: 16px; margin: 22px 0 6px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+  .lead { color: var(--muted); }
+  footer { margin-top: 56px; color: var(--muted); font-size: 14px; }
+  [hidden] { display: none !important; }
+</style>
 </head>
 <body>
-    <h1>CoinVert Privacy Policy</h1>
-    <p class="date">Last updated: May 26, 2026</p>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <div class="brand">LootX</div>
+      <div class="updated"><span class="lang" data-lang="en">Last updated: July 13, 2026</span><span class="lang" data-lang="ru" hidden>Обновлено: 13 июля 2026</span></div>
+    </div>
+    <div class="toggle">
+      <button data-set-lang="en">EN</button>
+      <button data-set-lang="ru">RU</button>
+    </div>
+  </div>
 
-    <p>CoinVert ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy explains how our mobile application handles information.</p>
+  <!-- ============ ENGLISH ============ -->
+  <div class="lang" data-lang="en">
+    <p class="lead">LootX is a crypto market-analytics app and a client interface to your own cryptocurrency exchange account. Contact: <a href="mailto:lootx.ceo@gmail.com">lootx.ceo@gmail.com</a></p>
 
-    <h2>Information We Collect</h2>
-    <p>CoinVert does <strong>NOT</strong> collect, store, or transmit any personal information. The app works entirely on your device.</p>
+    <h2>Privacy Policy</h2>
 
-    <h2>Data Storage</h2>
-    <p>All user preferences (selected currencies, language choice) are stored locally on your device only. No data is sent to our servers. We do not have servers that store user data.</p>
-
-    <h2>Third-Party Services</h2>
-    <p>The app fetches real-time exchange rates from the following public APIs:</p>
+    <h3>Information we collect</h3>
     <ul>
-        <li><strong>ExchangeRate API</strong> (open.er-api.com) — for fiat currency rates</li>
-        <li><strong>CoinGecko API</strong> (api.coingecko.com) — for cryptocurrency rates</li>
+      <li><strong>Account information.</strong> Your <strong>email address</strong> and a <strong>username / account ID</strong>, collected when you register and sign in, used to create and secure your account.</li>
+      <li><strong>Trade journal.</strong> If you use the trade-journal feature, the trades you execute are sent to and stored on our server to build your personal trade history and statistics.</li>
+      <li><strong>Content you create.</strong> Chart drawings and team alerts / team membership you create are stored on our servers so they sync across your devices and, for teams, are shared with your team.</li>
     </ul>
-    <p>These services may collect anonymous usage data (such as IP address) according to their own privacy policies. We do not share any user data with these services beyond what is required for the API request.</p>
+    <p>All of the above is used only to provide app functionality. We do not use it for tracking or advertising, and we do not sell it.</p>
 
-    <h2>Analytics & Advertising</h2>
-    <p>CoinVert does not use any analytics services, crash reporting tools, or advertising SDKs. We do not track your usage in any way.</p>
+    <h3>Information that stays on your device</h3>
+    <ul>
+      <li><strong>Exchange API keys.</strong> If you choose to connect your own exchange account, your API keys are stored <strong>locally on your device only</strong>. They are <strong>never transmitted to or stored on our servers</strong>. They are used solely to display your balance and positions and to send order requests directly to your own exchange.</li>
+      <li>App preferences and settings are stored on your device.</li>
+    </ul>
 
-    <h2>Children's Privacy</h2>
-    <p>CoinVert does not knowingly collect any information from children under 13. The app does not require registration and does not collect any personal data from any user.</p>
+    <h3>What we do NOT do</h3>
+    <ul>
+      <li>We do <strong>not</strong> collect or store your exchange API keys.</li>
+      <li>We do <strong>not</strong> hold, custody, or transfer your funds.</li>
+      <li>We do <strong>not</strong> track you or sell your personal information.</li>
+      <li>We do <strong>not</strong> use your data for advertising.</li>
+    </ul>
 
-    <h2>Data Security</h2>
-    <p>All network requests to exchange rate APIs are made over HTTPS (encrypted connections). Since we do not collect or store any personal data, there is no risk of data breach from our side.</p>
+    <h3>Market data</h3>
+    <p>Prices, order books, open interest and funding are retrieved from public third-party exchange APIs (e.g. Binance, Bybit, OKX, CoinGecko). No personal information is sent to these providers.</p>
 
-    <h2>Your Rights</h2>
-    <p>Since we do not collect any personal data, there is no data to access, modify, or delete. You can uninstall the app at any time to remove all locally stored preferences.</p>
+    <h3>Data retention and deletion</h3>
+    <p>We keep your account information and synced content while your account exists. You can request deletion of your account and associated data at any time at <a href="mailto:lootx.ceo@gmail.com">lootx.ceo@gmail.com</a>.</p>
 
-    <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date.</p>
+    <h3>Security</h3>
+    <p>We apply reasonable measures to protect your information. Account credentials are stored in the device Keychain, and exchange API keys never leave your device.</p>
 
-    <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, contact us at:<br>
-    <a href="mailto:sanek1171@gmail.com">sanek1171@gmail.com</a></p>
+    <h3>Children</h3>
+    <p>LootX is not directed to children under 13 and we do not knowingly collect their data.</p>
+
+    <h3>Changes</h3>
+    <p>We may update this policy; the “Last updated” date will change accordingly.</p>
+
+    <h2>Terms of Use</h2>
+
+    <h3>The service</h3>
+    <p>LootX is a market-analytics tool and a client interface to <strong>your own</strong> third-party cryptocurrency exchange account. LootX is <strong>not an exchange, broker, or custodian</strong>. It does not hold, transfer, or exchange funds, and it does <strong>not</strong> offer the purchase or sale of cryptocurrency within the app.</p>
+
+    <h3>Your exchange account</h3>
+    <p>Any exchange connection uses <strong>your own API keys</strong> and operates on <strong>your own</strong> account. All orders and transactions are executed by your exchange, not by LootX. You are solely responsible for your decisions and for keeping your API keys secure.</p>
+
+    <h3>No financial advice</h3>
+    <p>LootX provides data and tools for informational purposes only. Nothing in the app is financial, investment, or trading advice. Cryptocurrency trading involves significant risk, including loss of capital.</p>
+
+    <h3>No warranty</h3>
+    <p>The app is provided “as is”, without warranties of any kind. Market data may be delayed or inaccurate. We are not liable for losses arising from use of the app.</p>
+
+    <h3>Acceptable use</h3>
+    <p>You agree to use the app lawfully and not to misuse or interfere with it.</p>
+
+    <h3>Changes</h3>
+    <p>We may update these terms; continued use means acceptance.</p>
+  </div>
+
+  <!-- ============ РУССКИЙ ============ -->
+  <div class="lang" data-lang="ru" hidden>
+    <p class="lead">LootX — приложение для анализа крипторынка и клиентский интерфейс к вашему собственному аккаунту на криптобирже. Контакт: <a href="mailto:lootx.ceo@gmail.com">lootx.ceo@gmail.com</a></p>
+
+    <h2>Политика конфиденциальности</h2>
+
+    <h3>Какие данные мы собираем</h3>
+    <ul>
+      <li><strong>Данные аккаунта.</strong> Ваш <strong>email</strong> и <strong>имя пользователя / идентификатор аккаунта</strong> — собираются при регистрации и входе, используются для создания и защиты аккаунта.</li>
+      <li><strong>Журнал сделок.</strong> Если вы пользуетесь журналом сделок, совершённые вами сделки отправляются и хранятся на нашем сервере, чтобы формировать вашу историю сделок и статистику.</li>
+      <li><strong>Создаваемый вами контент.</strong> Рисунки на графике и командные алерты / участие в команде хранятся на наших серверах, чтобы синхронизироваться между вашими устройствами и (для команд) быть доступными вашей команде.</li>
+    </ul>
+    <p>Всё перечисленное используется только для работы приложения. Мы не используем эти данные для трекинга или рекламы и не продаём их.</p>
+
+    <h3>Данные, которые остаются на вашем устройстве</h3>
+    <ul>
+      <li><strong>API-ключи биржи.</strong> Если вы подключаете свой биржевой аккаунт, ваши API-ключи хранятся <strong>только локально на устройстве</strong>. Они <strong>никогда не передаются и не хранятся на наших серверах</strong>. Они используются исключительно для показа вашего баланса и позиций и для отправки ордеров напрямую на вашу биржу.</li>
+      <li>Настройки приложения хранятся на устройстве.</li>
+    </ul>
+
+    <h3>Чего мы НЕ делаем</h3>
+    <ul>
+      <li>Мы <strong>не</strong> собираем и не храним ваши API-ключи биржи.</li>
+      <li>Мы <strong>не</strong> храним и не переводим ваши средства.</li>
+      <li>Мы <strong>не</strong> отслеживаем вас и не продаём ваши персональные данные.</li>
+      <li>Мы <strong>не</strong> используем ваши данные для рекламы.</li>
+    </ul>
+
+    <h3>Рыночные данные</h3>
+    <p>Цены, стаканы, открытый интерес и funding загружаются из публичных API сторонних бирж (например, Binance, Bybit, OKX, CoinGecko). Персональные данные им не передаются.</p>
+
+    <h3>Хранение и удаление данных</h3>
+    <p>Мы храним данные аккаунта и синхронизируемый контент, пока существует ваш аккаунт. Вы можете в любой момент запросить удаление аккаунта и связанных данных по адресу <a href="mailto:lootx.ceo@gmail.com">lootx.ceo@gmail.com</a>.</p>
+
+    <h3>Безопасность</h3>
+    <p>Мы применяем разумные меры защиты ваших данных. Учётные данные аккаунта хранятся в Keychain устройства, а API-ключи биржи не покидают ваше устройство.</p>
+
+    <h3>Дети</h3>
+    <p>LootX не предназначен для детей младше 13 лет, и мы сознательно не собираем их данные.</p>
+
+    <h3>Изменения</h3>
+    <p>Мы можем обновлять эту политику; дата «Обновлено» будет меняться соответственно.</p>
+
+    <h2>Пользовательское соглашение</h2>
+
+    <h3>Сервис</h3>
+    <p>LootX — инструмент для анализа рынка и клиентский интерфейс к <strong>вашему собственному</strong> аккаунту на сторонней криптобирже. LootX <strong>не является биржей, брокером или кастодианом</strong>. Приложение не хранит, не переводит и не обменивает средства и <strong>не</strong> предлагает покупку или продажу криптовалюты внутри приложения.</p>
+
+    <h3>Ваш биржевой аккаунт</h3>
+    <p>Подключение к бирже использует <strong>ваши собственные API-ключи</strong> и работает с <strong>вашим</strong> аккаунтом. Все ордера и операции исполняются вашей биржей, а не LootX. Вы несёте полную ответственность за свои решения и за сохранность ваших ключей.</p>
+
+    <h3>Не является финансовой консультацией</h3>
+    <p>LootX предоставляет данные и инструменты только в информационных целях. Ничто в приложении не является финансовой, инвестиционной или торговой рекомендацией. Торговля криптовалютой сопряжена со значительным риском, включая потерю капитала.</p>
+
+    <h3>Без гарантий</h3>
+    <p>Приложение предоставляется «как есть», без каких-либо гарантий. Рыночные данные могут запаздывать или быть неточными. Мы не несём ответственности за убытки, возникшие в результате использования приложения.</p>
+
+    <h3>Допустимое использование</h3>
+    <p>Вы обязуетесь использовать приложение законно и не злоупотреблять им и не нарушать его работу.</p>
+
+    <h3>Изменения</h3>
+    <p>Мы можем обновлять это соглашение; продолжение использования означает согласие.</p>
+  </div>
+
+  <footer>© 2026 LootX · <a href="mailto:lootx.ceo@gmail.com">lootx.ceo@gmail.com</a></footer>
+</div>
+
+<script>
+(function () {
+  function set(l) {
+    document.documentElement.lang = l;
+    var blocks = document.querySelectorAll('.lang');
+    for (var i = 0; i < blocks.length; i++) {
+      blocks[i].hidden = (blocks[i].getAttribute('data-lang') !== l);
+    }
+    var btns = document.querySelectorAll('[data-set-lang]');
+    for (var j = 0; j < btns.length; j++) {
+      var on = btns[j].getAttribute('data-set-lang') === l;
+      btns[j].className = on ? 'active' : '';
+    }
+    try { localStorage.setItem('lootx-lang', l); } catch (e) {}
+  }
+  var saved;
+  try { saved = localStorage.getItem('lootx-lang'); } catch (e) {}
+  var initial = saved || ((navigator.language || 'en').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en');
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('[data-set-lang]') : null;
+    if (b) set(b.getAttribute('data-set-lang'));
+  });
+  set(initial);
+})();
+</script>
 </body>
 </html>
